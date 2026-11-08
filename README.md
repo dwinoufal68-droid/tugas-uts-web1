@@ -171,17 +171,7 @@ Menampilkan informasi status pengiriman pesanan.
 
 ![Halaman Tracking](img/tracking.jpg)
 
-## 11. Link Repository GitHub
-
-**Link GitHub:**  
-[Masukkan link repository GitHub di sini]
-
-## 12. Link Video Presentasi YouTube
-
-**Link YouTube:**  
-[Masukkan link video presentasi YouTube di sini]
-
-## 13. Kesimpulan
+## 11. Kesimpulan
 
 Berdasarkan pengerjaan project ini, saya dapat memahami penerapan HTML, CSS, dan JavaScript dalam pembuatan aplikasi website sederhana. Saya juga mempelajari penggunaan array, object, DOM, validasi form, tabel data, serta Local Storage.
 
