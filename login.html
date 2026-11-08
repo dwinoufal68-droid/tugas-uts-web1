@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login | BookStore</title><link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+<main class="auth-card">
+  <a class="brand" href="login.html"><span class="brand-mark">B</span> BookStore</a>
+  <p class="eyebrow">TOKO BUKU ONLINE</p>
+  <h1>Selamat datang!</h1><p class="muted">Masuk untuk mulai memesan buku favoritmu.</p>
+  <form id="loginForm">
+    <label for="email">Email</label><input id="email" type="email" placeholder="nama@email.com" required>
+    <label for="password">Password</label><input id="password" type="password" placeholder="Masukkan password" required>
+    <button class="btn primary full" type="submit">Login</button>
+  </form>
+  <div class="auth-links"><button type="button" data-modal="forgotModal">Lupa Password?</button><button type="button" data-modal="registerModal">Daftar</button></div>
+  <div class="demo-box"><b>Akun demo:</b><br>rina@gmail.com / rina123<br>agus@gmail.com / agus123<br>siti@gmail.com / siti123</div>
+</main>
+<dialog id="forgotModal" class="modal"><form method="dialog" class="modal-content"><button class="close-btn">×</button><h2>Lupa Password</h2><p class="muted">Masukkan email akun untuk simulasi pemulihan.</p><label for="forgotEmail">Email</label><input id="forgotEmail" type="email" required><button id="forgotSubmit" class="btn primary" type="button">Kirim</button></form></dialog>
+<dialog id="registerModal" class="modal"><form method="dialog" class="modal-content"><button class="close-btn">×</button><h2>Daftar Akun</h2><label for="regName">Nama</label><input id="regName" required><label for="regEmail">Email</label><input id="regEmail" type="email" required><label for="regPassword">Password</label><input id="regPassword" type="password" minlength="6" required><button id="registerSubmit" class="btn primary" type="button">Daftar</button></form></dialog>
+<script src="data.js"></script><script src="script.js"></script>
+</body></html>

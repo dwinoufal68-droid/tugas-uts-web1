@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dashboard | BookStore</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="dashboard.html"><span class="brand-mark">B</span> BookStore</a><nav><a class="active" href="dashboard.html">Dashboard</a><a href="stok.html">Katalog</a><a href="checkout.html">Pemesanan</a><a href="tracking.html">Pengiriman</a></nav><button class="btn outline small" id="logoutBtn">Keluar</button></header>
+<main class="container">
+<section class="welcome-panel"><div><p class="eyebrow">DASHBOARD</p><h1 id="greeting">Selamat datang!</h1><p class="muted">Kelola katalog dan pemesanan buku dengan mudah.</p></div><div class="welcome-icon">📚</div></section>
+<section class="stats-grid"><article class="stat-card"><p class="muted">Total katalog</p><h2 id="totalBooks">0</h2></article><article class="stat-card"><p class="muted">Total stok</p><h2 id="totalStock">0</h2></article><article class="stat-card"><p class="muted">Data pengguna</p><h2 id="totalUsers">0</h2></article></section>
+<h2>Menu utama</h2><section class="menu-grid">
+<a class="menu-card" href="stok.html"><span>📚</span><h3>Informasi Stok/Katalog</h3><p>Lihat daftar buku dan stok tersedia.</p></a>
+<a class="menu-card" href="tracking.html"><span>🚚</span><h3>Tracking Pengiriman</h3><p>Cek status berdasarkan nomor DO.</p></a>
+<a class="menu-card" href="checkout.html"><span>🛒</span><h3>Laporan Pemesanan</h3><p>Buat pesanan dan lihat ringkasannya.</p></a>
+<a class="menu-card" href="checkout.html#riwayat"><span>🧾</span><h3>History Transaksi</h3><p>Lihat transaksi demo.</p></a>
+</section><p class="footer-note">BookStore • UTS Pemrograman Web 1</p>
+</main><script src="data.js"></script><script src="script.js"></script></body></html>
